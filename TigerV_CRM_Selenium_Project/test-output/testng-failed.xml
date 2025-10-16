@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="contacts.TC_VT_002_CreateContacts_Test">
+      <class name="organization.Tc_VT_002_CreateOrganization_Test">
         <methods>
           <include name="closeBrowser"/>
           <include name="reportConfiguration"/>
           <include name="reportBackup"/>
           <include name="logout"/>
-          <include name="createContact"/>
           <include name="login"/>
+          <include name="createOrganization"/>
           <include name="openBrowser"/>
         </methods>
-      </class> <!-- contacts.TC_VT_002_CreateContacts_Test -->
+      </class> <!-- organization.Tc_VT_002_CreateOrganization_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
